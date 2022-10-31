@@ -13,6 +13,7 @@
     width: 100%;
     max-width: 400px;
     margin: 25px 0 0 0;
+    background-color: rgba(255, 255, 255, 0.632);
 }
 
 .form__legend {
@@ -37,7 +38,7 @@
 
 .form__button {
     border: none;
-    background-color: teal;
+    background-color: #008080;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -53,7 +54,7 @@
 }
 
 .result {
-    background-color: hsla(198, 100%, 19%, 0.655);
+    background-color: hsl(180, 100%, 20%);
     color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 10px;
