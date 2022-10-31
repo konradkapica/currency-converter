@@ -1,3 +1,5 @@
+console.log("Pozdrawiam Team YouCode!")
+
 let formElement = document.querySelector(".js-form");
 let inputElement = document.querySelector(".js-input");
 let currencyElement = document.querySelector(".js-currency");
