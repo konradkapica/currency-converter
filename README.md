@@ -1,5 +1,6 @@
 # Currency-converter
 
+![Preview](images/Conventer_preview.png)
 ## Demo
 
 [Currency-converter demo](https://rudolfini.github.io/currency-converter/)
