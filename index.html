@@ -23,35 +23,37 @@
 </head>
 
 <body class="body">
-    <form class="js-form form">
-        <fieldset class="form__fieldset">
-            <legend class="form__legend">Przelicznik PLN</legend>
+    <div class="body__container">
+        <form class="js-form form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Przelicznik PLN</legend>
+                <p>
+                    <label>
+                        <span class="form__labelText">Wpisz kwotę (PLN):</span>
+                        <input class="form__field js-input" name="PLN" type="number" min="0.01" step="any"
+                            placeholder="PLN" autofocus required>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText">Wybierz walutę:</span>
+                        <select class="form__field js-currency" name="currency">
+                            <option value="EUR">Euro</option>
+                            <option value="USD">Dolar amerykański</option>
+                            <option value="GBP">Funt brytyjski</option>
+                            <option value="UAH">Hrywna</option>
+                        </select>
+                    </label>
+                </p>
+            </fieldset>
             <p>
-                <label>
-                    <span class="form__labelText">Wpisz kwotę (PLN):</span>
-                    <input class="form__field js-input" name="PLN" type="number" min="0.01" step="any" placeholder="PLN"
-                        autofocus required>
-                </label>
+                <button class="form__button">Przelicz</button>
             </p>
-            <p>
-                <label>
-                    <span class="form__labelText">Wybierz walutę:</span>
-                    <select class="form__field js-currency" name="currency">
-                        <option value="EUR">Euro</option>
-                        <option value="USD">Dolar amerykański</option>
-                        <option value="GBP">Funt brytyjski</option>
-                        <option value="UAH">Hrywna</option>
-                    </select>
-                </label>
-            </p>
-        </fieldset>
-        <p>
-            <button class="form__button">Przelicz</button>
+        </form>
+        <p class="result js-result">
+            -
         </p>
-    </form>
-    <p class="result js-result">
-        -
-    </p>
+    </div>
 </body>
 
 </html>
