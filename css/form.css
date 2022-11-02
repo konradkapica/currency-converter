@@ -3,7 +3,7 @@
     max-width: 175px;
     display: inline-block;
     margin-right: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .form__fieldset {
@@ -12,6 +12,11 @@
     padding: 40px;
     margin: 25px 0 0 0;
     background-color: rgba(255, 255, 255, 0.632);
+    display: flex;
+    flex-basis: 400px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .form__legend {
@@ -28,6 +33,14 @@
     width: 100%;
     max-width: 165px;
     border-radius: 5px;
+}
+
+.form__paragraph {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis:200px;
 }
 
 .form__field:invalid {
